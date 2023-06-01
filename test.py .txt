@@ -1,0 +1,11 @@
+from tkinter import Tk
+from tkinter import filedialog
+
+def select_folder():
+    root = Tk()
+    root.withdraw()
+    folder_path = filedialog.askdirectory()
+    if folder_path:
+        print("Selected folder:", folder_path)
+
+select_folder()
