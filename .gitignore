@@ -1,0 +1,10 @@
+*.pyc
+*.idea
+.idea/
+.idea
+.vscode/*
+*.sqlite3
+eform/.env
+static/*
+/venv/
+media/*
